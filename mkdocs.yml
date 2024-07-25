@@ -1,0 +1,13 @@
+site_name: Hello World
+
+theme:
+  name: "material"
+
+plugins:
+- mkdocstrings: 
+    handlers:
+      python:
+        paths: [src/swd3.hypot]  # search packages in the src folder
+
+nav:
+  - Main page: index.md
