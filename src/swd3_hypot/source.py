@@ -11,3 +11,7 @@ opp = 3
 adj = 4
 y = hyp_func(opp, adj)
 print(y)
+
+
+def sqrt(number):
+    return number**0.5
